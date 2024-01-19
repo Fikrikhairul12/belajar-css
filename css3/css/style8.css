@@ -1,0 +1,11 @@
+@font-face {
+    font-family: "Alex Brush";
+    src: url('../AlexBrush-Regular.ttf') format('truetype');
+    /* dwnld di
+    * * fonts.google.com
+    * * fontsquirrel.com */
+}
+
+h1{
+    font-family: "Alex Brush", arial;
+}

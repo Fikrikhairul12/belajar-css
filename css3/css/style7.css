@@ -1,0 +1,42 @@
+.grd1{
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: radial-gradient(red,orange);
+}
+
+.grd2{
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: radial-gradient(red 10%,orange 50%);
+    /* color stop */
+}
+
+.grd3{
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: radial-gradient(circle,red,orange);
+    /* tipe elipse (default) / circle */
+}
+
+.grd4{
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: radial-gradient(circle closest-side,red,orange);
+    /* jangkauan
+    * * closest-corner: jarak pusat gradient ke sudut terdekat
+    * * closest-side: jarak pusat gradient ke sisi terdekat
+    * * farthest-corner: jarak pusat gradient ke sudut terjauh
+    * * farthest-side: jarak pusat gradient ke sisi terjauh */
+}
+
+.grd5{
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-image: radial-gradient(circle closest-corner at bottom center, red 10%,purple 70%);
+    /* posisi */
+}

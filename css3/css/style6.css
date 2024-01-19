@@ -1,0 +1,34 @@
+.grd1{
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: aqua;
+    background-image: linear-gradient(red,orange,yellow,white);
+}
+
+.grd2{
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: aqua;
+    background-image: linear-gradient(90deg,red,orange);
+    /* gradient dari samping */
+}
+
+.grd3{
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: aqua;
+    background-image: linear-gradient(to right,red,orange);
+    /* gradient arah */
+}
+
+.grd4{
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    background-color: aqua;
+    background-image: linear-gradient(to right,red 63%,orange 80%);
+    /* color stop */
+}
