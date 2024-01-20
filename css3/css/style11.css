@@ -1,0 +1,36 @@
+/* 
+? Transform
+* scale 'memperbesar / memperkecil coba2 aja'
+    !scale(angka), scaleX(angka), scaleY(angka)
+* rotate 'memutar sama dicoba'
+    !rotate(deg), rotateX(deg), rotateY(deg)
+* skew 'membuat condong / miring ini juga coba'
+    !skew(deg), skewX(deg), skewY(deg)
+* translate 'mengubah posisi coba aja dh dri pd nanya'
+    !translate(px), translateX(px), translateY(px)
+ */
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.kotak{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    margin: 50px auto 0;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.kotak:hover{
+    transform: scale(2) rotate(360deg);
+    -webkit-transform: scale(2) rotate(360deg);
+    -moz-transform: scale(2) rotate(360deg);
+    -ms-transform: scale(2) rotate(360deg);
+    -o-transform: scale(2) rotate(360deg);
+}

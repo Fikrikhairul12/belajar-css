@@ -1,0 +1,80 @@
+/* 
+? Transition dpt mengubah nilai property scra halus
+    ! transition: [property] <durasi> [fungsi] [delay];
+* durasi
+    ! s / ms */
+
+
+
+.container{
+    width: 900px;
+    margin: 10px auto;
+    border: 1px solid #888;
+}
+
+.kotak{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    text-align: center;
+    line-height: 100px;
+    margin: 5px;
+}
+
+.kotak1{
+    transition: all 3s ease;
+    -webkit-transition: all 3s ease;
+    -moz-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    -o-transition: all 3s ease;
+}
+
+.kotak2{
+    transition: all 3s ease-in;
+    -webkit-transition: all 3s ease-in;
+    -moz-transition: all 3s ease-in;
+    -ms-transition: all 3s ease-in;
+    -o-transition: all 3s ease-in;
+}
+
+.kotak3{
+    transition: all 3s ease-out;
+    -webkit-transition: all 3s ease-out;
+    -moz-transition: all 3s ease-out;
+    -ms-transition: all 3s ease-out;
+    -o-transition: all 3s ease-out;
+}
+
+.kotak4{
+    transition: all 3s ease-in-out;
+    -webkit-transition: all 3s ease-in-out;
+    -moz-transition: all 3s ease-in-out;
+    -ms-transition: all 3s ease-in-out;
+    -o-transition: all 3s ease-in-out;
+}
+
+.kotak5{
+    transition: all 3s linear;
+    -webkit-transition: all 3s linear;
+    -moz-transition: all 3s linear;
+    -ms-transition: all 3s linear;
+    -o-transition: all 3s linear;
+}
+
+.kotak6{
+    transition: all 3s cubic-bezier(0.34, -1.31, 0.47, 1.71);
+    -webkit-transition: all 3s cubic-bezier(0.34, -1.31, 0.47, 1.71);
+    -moz-transition: all 3s cubic-bezier(0.34, -1.31, 0.47, 1.71);
+    -ms-transition: all 3s cubic-bezier(0.34, -1.31, 0.47, 1.71);
+    -o-transition: all 3s cubic-bezier(0.34, -1.31, 0.47, 1.71);
+}
+
+.container:hover .kotak{
+    transform: rotate(720deg);
+    margin-left: 800px;
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    background-color: royalblue;
+}

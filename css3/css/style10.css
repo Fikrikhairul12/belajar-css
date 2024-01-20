@@ -1,0 +1,19 @@
+/* 
+?Filter
+* * Blur(px) 
+* * grayscale(angka | %) 'mengurangi warna'
+* * invert(angka | %) 'susah jelasin yg ini di coba aja intiny yg biasa di postingan ad titik di tengah muka orang trus arahin ke dinding nnti ada gambar ny'
+* * brightness(angka | %) 'kecerahan'
+* * sepia(angka | %) 'sama kyk greyscale tpi warna kuning'
+* * opacity(angka | %) 'transparan'
+* * contrast(angka | %) 'ya tau lah contras kyk apa coba sndri aja'
+* * hue-rotate(deg) 'putar warna, coba aja sndri cnth (100deg)'
+* * drop-shadow(sama seperti box-shadow)
+* * saturate(angka | %) 'menambah warna' */
+
+img{
+    width: 600px;
+    height: 400px;
+    filter: drop-shadow(5px 5px 5px #888);
+    -webkit-filter: drop-shadow(5px 5px 5px #888);
+}
