@@ -3,12 +3,19 @@
 }
 
 .hello:hover{
+    /* !untuk menentukan gaya saat pengguna mengarahkan kursor mouse ke atas elemen. */
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     color: green;
 }
 
+.hello:focus{
+    /* !Menggambarkan keadaan saat elemen mendapat fokus (biasanya berlaku untuk elemen formulir atau tautan yang ditekan dengan menggunakan keyboard). */
+    border: 0.8px solid black;
+}
+
 .hello:active{
+    /* !Menggambarkan keadaan saat elemen sedang aktif atau diklik oleh pengguna. */
     font-style: italic;
 }
 
@@ -17,8 +24,9 @@
 }
 
 li:nth-child(even) a{
-    /**
-    * ?event genap, odd ganjil */
+    /*
+    !elemen ke-n sebagai anak dari elemen induk.
+    ?even genap, odd ganjil */
     color: green;
 }
 
@@ -26,8 +34,7 @@ li:nth-child(odd) a:hover{
     color: red;
 }
 
-/**
-* !first of type elemen pertama pada tag, last elemen terakhir */
+/* !first of type elemen pertama pada tag, last elemen terakhir */
 p:last-of-type{
     color: blue;
 }
